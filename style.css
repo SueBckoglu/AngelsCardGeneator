@@ -1,0 +1,98 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f0bced;
+}
+
+.wrapper {
+  width: 605px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
+header, .content :where(i, p, span) {
+  color: #202842;
+}
+
+.wrapper header {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .content {
+  margin: 35px 0;
+  text-align: center;
+}
+
+.content .card_img {
+  height: 150px;
+  background: #F3F3F3;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card_name .name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card_details {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.card_details i {
+  font-size: 15px;
+}
+
+.card_details i:first-child {
+  margin-right: 5px;
+}
+
+.card_details i:last-child {
+  margin-left: 5px;
+}
+
+.button {
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #f093fb, #f5576c);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background: linear-gradient(45deg, #f5576c, #f093fb);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
